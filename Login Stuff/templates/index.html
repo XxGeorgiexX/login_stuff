@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Welcome - Fitness Tracker</title>
+</head>
+<body style="display: grid; place-items: center;">
+    <h1>Welcome - ToKa Fitness Tracker</h1>
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Fitness Image" class="center-image">  
+
+    <div>
+        <button style="margin: 1rem;" class="btn" onclick="window.location.href='/login'">Login</button>
+    </div>
+</body>
+    
+</html>
